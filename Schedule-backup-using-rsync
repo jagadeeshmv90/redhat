@@ -1,0 +1,10 @@
+#I am going to backup my local directory /home/user1/workfiles to /home/user1/backups
+#I will schdeule a cron job that runs everyday at 5 PM
+
+#I will enter the following command to open up crontab editor
+
+$crontab -e
+
+#I will add the following lines to the editor
+
+* 17 * * * rsync -an /home/user1/workfiles /home/user1/backups
