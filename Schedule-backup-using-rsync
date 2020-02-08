@@ -8,3 +8,5 @@ $crontab -e
 #I will add the following lines to the editor
 
 * 17 * * * rsync -an /home/user1/workfiles /home/user1/backups
+
+#I will enter :wq to save changes and test it via $crontab -l
